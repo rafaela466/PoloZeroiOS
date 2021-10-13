@@ -1,0 +1,80 @@
+[
+  {
+    "id" : 1,
+    "name" : "Tabelas de Preços",
+    "image" : "precoscores",
+    "imagetwo" : "precosbranco",
+    "description" : "11111111111111111111111111111111",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+  {
+    "id" : 2,
+    "name" : "Catálogos",
+    "image" : "catalogoscores",
+    "imagetwo" : "catalogosbranco",
+    "description" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+  {
+    "id" : 3,
+    "name" : "Contactos",
+    "image" : "contactoscores",
+    "imagetwo" : "contactosbranco",
+    "description" : "bbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "Promoções",
+    "image" : "promocoescores",
+    "imagetwo" : "promocoesbranco",
+    "description" : "ccccccccccccccccccccccccccccccc",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "Lojas",
+    "image" : "lojascores",
+    "imagetwo" : "lojasbranco",
+    "description" : "ddddddddddddddddddddddddddddddddddd",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "Videos",
+    "image" : "videoscores",
+    "imagetwo" : "videosbranco",
+    "description" : "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "price" : "199",
+    "color" : [
+        0.61,
+        0.8,
+        0.89
+    ]
+  },
+]

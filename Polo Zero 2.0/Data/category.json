@@ -1,0 +1,26 @@
+[
+  {
+    "id" : 1,
+    "name" : "Ar condicionado",
+    "image" : "icon-ar",
+    "link": "https://polozero.com/wp-content/uploads/2021/07/SECCAO_A_Editado.pdf"
+  },
+  {
+    "id" : 2,
+    "name" : "Aquecimento",
+    "image" : "icon-sun",
+    "link": "https://polozero.com/wp-content/uploads/2021/07/SECCAO_E.pdf"
+  },
+  {
+    "id" : 3,
+    "name" : "Refrigeração",
+    "image" : "icon-snow",
+    "link": "https://polozero.com/wp-content/uploads/2021/07/SECCAO_D.pdf"
+  },
+  {
+    "id" : 4,
+    "name" : "Ventilação",
+    "image" : "icon-vent",
+    "link": "https://polozero.com/wp-content/uploads/2021/07/SECCAO_E.pdf"
+  }
+]

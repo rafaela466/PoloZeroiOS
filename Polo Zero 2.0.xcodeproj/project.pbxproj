@@ -3,41 +3,230 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		084DCA4925CAB68900BE0B54 /* Polo_Zero_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA4825CAB68900BE0B54 /* Polo_Zero_2_0App.swift */; };
-		084DCA4B25CAB68900BE0B54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA4A25CAB68900BE0B54 /* ContentView.swift */; };
+		080022DD27144055006D7950 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ECC4B2710606A00DE370D /* WidgetKit.framework */; };
+		080022DE27144055006D7950 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ECC4D2710606A00DE370D /* SwiftUI.framework */; };
+		080022E127144055006D7950 /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080022E027144055006D7950 /* ClockWidget.swift */; };
+		080022E327144057006D7950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080022E227144057006D7950 /* Assets.xcassets */; };
+		080022E727144057006D7950 /* ClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 080022DC27144055006D7950 /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		080CED3B26DE447D00CA4962 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		080CED3D26DE515E00CA4962 /* PricesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080FF573268B67340009CC45 /* PricesList.swift */; };
+		080CED4026DE525300CA4962 /* WKView in Frameworks */ = {isa = PBXBuildFile; productRef = 080CED3F26DE525300CA4962 /* WKView */; };
+		0814B7E426E2188A00DE33A5 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0830EE5626DE6FA90034857D /* CatalogsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA6ABF26D8E7E200598E74 /* CatalogsList.swift */; };
+		0830EE5726DE6FAF0034857D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA6D25CABD1600BE0B54 /* Constant.swift */; };
+		0830EE5826DE6FB40034857D /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F0B2683424C00B3D9BC /* CustomShape.swift */; };
+		0830EE5926DE6FB60034857D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F152684A4C500B3D9BC /* Shop.swift */; };
+		0830EE5A26DE6FBA0034857D /* CodableBundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8E225CACEE80029DF29 /* CodableBundleExtention.swift */; };
+		0830EE5B26DE6FD80034857D /* PromocoesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F26FA269302A6003118B9 /* PromocoesDetailView.swift */; };
+		0830EE5C26DE6FD80034857D /* FirebaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881882926970A4100522DD2 /* FirebaseImageView.swift */; };
+		0830EE5D26DE6FD80034857D /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881882B26970B7A00522DD2 /* ImagePickerController.swift */; };
+		0830EE5E26DE6FD80034857D /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881882D26970C9800522DD2 /* ContentRow.swift */; };
+		0830EE5F26DE6FD80034857D /* Polo_Zero_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA4825CAB68900BE0B54 /* Polo_Zero_2_0App.swift */; };
+		0830EE6026DE6FD80034857D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA4A25CAB68900BE0B54 /* ContentView.swift */; };
+		0830EE6126DE6FD80034857D /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FBB052643F24E00C33B75 /* ProductDetailView.swift */; };
+		0830EE6226DE6FD80034857D /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA7625CABDF700BE0B54 /* FooterView.swift */; };
+		0830EE6326DE6FD80034857D /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8D925CAC2DB0029DF29 /* NavigationBarView.swift */; };
+		0830EE6426DE6FD80034857D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8DC25CAC4480029DF29 /* LogoView.swift */; };
+		0830EE6526DE6FD80034857D /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8E525CAD1390029DF29 /* FeaturedItemView.swift */; };
+		0830EE6626DE6FD80034857D /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8E825CAD2870029DF29 /* FeaturedTabView.swift */; };
+		0830EE6926DE6FD90034857D /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889489125D53C52005FDDD6 /* SectionView.swift */; };
+		0830EE6A26DE6FD90034857D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889489425D54607005FDDD6 /* TitleView.swift */; };
+		0830EE6B26DE6FD90034857D /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889489A25D54870005FDDD6 /* ProductItemView.swift */; };
+		0830EE6C26DE6FD90034857D /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08660D582642EA1200453A7D /* BrandItemView.swift */; };
+		0830EE6D26DE6FD90034857D /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08660D5A2642EB6100453A7D /* BrandGridView.swift */; };
+		0830EE6E26DE6FD90034857D /* PrecosItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F1D2684E9CF00B3D9BC /* PrecosItemView.swift */; };
+		0830EE6F26DE6FD90034857D /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FBB072643F47C00C33B75 /* NavigationBarDetailView.swift */; };
+		0830EE7026DE6FD90034857D /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FBB09264408AF00C33B75 /* HeaderDetailView.swift */; };
+		0830EE7126DE6FD90034857D /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FBB0B26440BBB00C33B75 /* TopPartDetailView.swift */; };
+		0830EE7226DE6FD90034857D /* QualityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F1326849C7F00B3D9BC /* QualityFavouriteDetailView.swift */; };
+		0830EE7326DE6FD90034857D /* LocationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F1B2684D75600B3D9BC /* LocationButtonView.swift */; };
+		0830EE7426DE6FD90034857D /* SamsungMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AEBFAE268CDB290008B008 /* SamsungMenu.swift */; };
+		0830EE7526DE6FD90034857D /* ContactosDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F26FC26930322003118B9 /* ContactosDetailView.swift */; };
+		0830EE7626DE6FD90034857D /* VideosDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F26FE26930343003118B9 /* VideosDetailView.swift */; };
+		0830EE7726DE6FD90034857D /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A690D326B04B1A00F20AF6 /* VideoView.swift */; };
+		0830EE7826DE6FD90034857D /* icon.json in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F0F26848F6200B3D9BC /* icon.json */; };
+		0830EE7926DE6FD90034857D /* brand.json in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA5925CAB9A200BE0B54 /* brand.json */; };
+		0830EE7A26DE6FD90034857D /* category.json in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA5B25CAB9A200BE0B54 /* category.json */; };
+		0830EE7B26DE6FD90034857D /* player.json in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA5A25CAB9A200BE0B54 /* player.json */; };
+		0830EE7C26DE6FD90034857D /* product.json in Sources */ = {isa = PBXBuildFile; fileRef = 084DCA5825CAB9A200BE0B54 /* product.json */; };
+		0830EE7D26DE6FD90034857D /* SamsungList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D667B268DC39800DF141A /* SamsungList.swift */; };
+		0830EE7E26DE6FD90034857D /* DaikinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D667D268DC3A600DF141A /* DaikinList.swift */; };
+		0830EE7F26DE6FD90034857D /* DaitsuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D667F268DC3B000DF141A /* DaitsuList.swift */; };
+		0830EE8026DE6FD90034857D /* HTWList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D6681268DC3BB00DF141A /* HTWList.swift */; };
+		0830EE8126DE6FD90034857D /* WigamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D6687268DC41C00DF141A /* WigamList.swift */; };
+		0830EE8226DE6FD90034857D /* MitsubishiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D6689268DC42C00DF141A /* MitsubishiList.swift */; };
+		0830EE8326DE6FD90034857D /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CB8DF25CACE820029DF29 /* PlayerModel.swift */; };
+		0830EE8426DE6FD90034857D /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC50A025D2F4350059C793 /* CategoryModel.swift */; };
+		0830EE8526DE6FD90034857D /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889489725D54776005FDDD6 /* ProductModel.swift */; };
+		0830EE8626DE6FD90034857D /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08660D562642E93D00453A7D /* BrandModel.swift */; };
+		0830EE8726DE6FD90034857D /* IconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C8F112684911E00B3D9BC /* IconModel.swift */; };
 		084DCA4D25CAB68B00BE0B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA4C25CAB68B00BE0B54 /* Assets.xcassets */; };
 		084DCA5025CAB68B00BE0B54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA4F25CAB68B00BE0B54 /* Preview Assets.xcassets */; };
+		084DCA5C25CAB9A200BE0B54 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA5825CAB9A200BE0B54 /* product.json */; };
+		084DCA5D25CAB9A200BE0B54 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA5925CAB9A200BE0B54 /* brand.json */; };
+		084DCA5E25CAB9A200BE0B54 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA5A25CAB9A200BE0B54 /* player.json */; };
+		084DCA5F25CAB9A200BE0B54 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 084DCA5B25CAB9A200BE0B54 /* category.json */; };
+		086ECC3A27103CCA00DE370D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 086ECC3927103CCA00DE370D /* GoogleService-Info.plist */; };
+		0876BD422704603E0051C6B8 /* BtuCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0876BD412704603E0051C6B8 /* BtuCalculator.swift */; };
+		087BB67526DF8EC80021D4F6 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		087C8F1026848F6200B3D9BC /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 087C8F0F26848F6200B3D9BC /* icon.json */; };
+		0888F42726F884570009ABC0 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0888F42926F898960009ABC0 /* CategoriasPzGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888F42826F898960009ABC0 /* CategoriasPzGridView.swift */; };
+		08B89F27270DE58000FC58C8 /* NavigationBarBtuCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B89F26270DE58000FC58C8 /* NavigationBarBtuCalc.swift */; };
+		B3F28A673D10B1B1A4AD5FAE /* Pods_Polo_Zero_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5B85023EA60F6575E7C09E /* Pods_Polo_Zero_2_0.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		080022E527144057006D7950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084DCA3D25CAB68900BE0B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080022DB27144055006D7950;
+			remoteInfo = ClockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		080CED3C26DE447D00CA4962 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				080CED3B26DE447D00CA4962 /* (null) in Embed Frameworks */,
+				0814B7E426E2188A00DE33A5 /* (null) in Embed Frameworks */,
+				0888F42726F884570009ABC0 /* (null) in Embed Frameworks */,
+				087BB67526DF8EC80021D4F6 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086ECC5E2710606D00DE370D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				080022E727144057006D7950 /* ClockWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		080022DC27144055006D7950 /* ClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		080022E027144055006D7950 /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
+		080022E227144057006D7950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080022E427144057006D7950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080FF573268B67340009CC45 /* PricesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesList.swift; sourceTree = "<group>"; };
+		081CB8D925CAC2DB0029DF29 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		081CB8DC25CAC4480029DF29 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		081CB8DF25CACE820029DF29 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		081CB8E225CACEE80029DF29 /* CodableBundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtention.swift; sourceTree = "<group>"; };
+		081CB8E525CAD1390029DF29 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		081CB8E825CAD2870029DF29 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		084DCA4525CAB68900BE0B54 /* Polo Zero 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polo Zero 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084DCA4825CAB68900BE0B54 /* Polo_Zero_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polo_Zero_2_0App.swift; sourceTree = "<group>"; };
 		084DCA4A25CAB68900BE0B54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		084DCA4C25CAB68B00BE0B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		084DCA4F25CAB68B00BE0B54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		084DCA5125CAB68B00BE0B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084DCA5825CAB9A200BE0B54 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		084DCA5925CAB9A200BE0B54 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		084DCA5A25CAB9A200BE0B54 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		084DCA5B25CAB9A200BE0B54 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		084DCA6D25CABD1600BE0B54 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		084DCA7625CABDF700BE0B54 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		08660D562642E93D00453A7D /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		08660D582642EA1200453A7D /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		08660D5A2642EB6100453A7D /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		086ECC3927103CCA00DE370D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Contents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		086ECC4B2710606A00DE370D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		086ECC4D2710606A00DE370D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		086F26FA269302A6003118B9 /* PromocoesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocoesDetailView.swift; sourceTree = "<group>"; };
+		086F26FC26930322003118B9 /* ContactosDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosDetailView.swift; sourceTree = "<group>"; };
+		086F26FE26930343003118B9 /* VideosDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosDetailView.swift; sourceTree = "<group>"; };
+		086FBB052643F24E00C33B75 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		086FBB072643F47C00C33B75 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		086FBB09264408AF00C33B75 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		086FBB0B26440BBB00C33B75 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		0876BD412704603E0051C6B8 /* BtuCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtuCalculator.swift; sourceTree = "<group>"; };
+		087C8F0B2683424C00B3D9BC /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		087C8F0F26848F6200B3D9BC /* icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icon.json; sourceTree = "<group>"; };
+		087C8F112684911E00B3D9BC /* IconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconModel.swift; sourceTree = "<group>"; };
+		087C8F1326849C7F00B3D9BC /* QualityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityFavouriteDetailView.swift; sourceTree = "<group>"; };
+		087C8F152684A4C500B3D9BC /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		087C8F1B2684D75600B3D9BC /* LocationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonView.swift; sourceTree = "<group>"; };
+		087C8F1D2684E9CF00B3D9BC /* PrecosItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecosItemView.swift; sourceTree = "<group>"; };
+		087D667B268DC39800DF141A /* SamsungList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungList.swift; sourceTree = "<group>"; };
+		087D667D268DC3A600DF141A /* DaikinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaikinList.swift; sourceTree = "<group>"; };
+		087D667F268DC3B000DF141A /* DaitsuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaitsuList.swift; sourceTree = "<group>"; };
+		087D6681268DC3BB00DF141A /* HTWList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTWList.swift; sourceTree = "<group>"; };
+		087D6687268DC41C00DF141A /* WigamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigamList.swift; sourceTree = "<group>"; };
+		087D6689268DC42C00DF141A /* MitsubishiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitsubishiList.swift; sourceTree = "<group>"; };
+		0881882926970A4100522DD2 /* FirebaseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseImageView.swift; sourceTree = "<group>"; };
+		0881882B26970B7A00522DD2 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		0881882D26970C9800522DD2 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
+		0888F42826F898960009ABC0 /* CategoriasPzGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasPzGridView.swift; sourceTree = "<group>"; };
+		0889489125D53C52005FDDD6 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		0889489425D54607005FDDD6 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0889489725D54776005FDDD6 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		0889489A25D54870005FDDD6 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		08A690D326B04B1A00F20AF6 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		08AEBFAE268CDB290008B008 /* SamsungMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungMenu.swift; sourceTree = "<group>"; };
+		08B89F26270DE58000FC58C8 /* NavigationBarBtuCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBtuCalc.swift; sourceTree = "<group>"; };
+		08BC50A025D2F4350059C793 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		08CA6ABF26D8E7E200598E74 /* CatalogsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogsList.swift; sourceTree = "<group>"; };
+		3B5B85023EA60F6575E7C09E /* Pods_Polo_Zero_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polo_Zero_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFF24456B50A6B601EB979E /* Pods-Polo Zero 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polo Zero 2.0.debug.xcconfig"; path = "Target Support Files/Pods-Polo Zero 2.0/Pods-Polo Zero 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2E7EA25950863ECC96506B /* Pods-Polo Zero 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polo Zero 2.0.release.xcconfig"; path = "Target Support Files/Pods-Polo Zero 2.0/Pods-Polo Zero 2.0.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		080022D927144055006D7950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080022DE27144055006D7950 /* SwiftUI.framework in Frameworks */,
+				080022DD27144055006D7950 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		084DCA4225CAB68900BE0B54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080CED4026DE525300CA4962 /* WKView in Frameworks */,
+				B3F28A673D10B1B1A4AD5FAE /* Pods_Polo_Zero_2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080022DF27144055006D7950 /* ClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				080022E027144055006D7950 /* ClockWidget.swift */,
+				080022E227144057006D7950 /* Assets.xcassets */,
+				080022E427144057006D7950 /* Info.plist */,
+			);
+			path = ClockWidget;
+			sourceTree = "<group>";
+		};
 		084DCA3C25CAB68900BE0B54 = {
 			isa = PBXGroup;
 			children = (
 				084DCA4725CAB68900BE0B54 /* Polo Zero 2.0 */,
+				080022DF27144055006D7950 /* ClockWidget */,
 				084DCA4625CAB68900BE0B54 /* Products */,
+				1C8F2183CE3F600F9A305E49 /* Pods */,
+				0DD4020BA9D74AF631C81B3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				084DCA4525CAB68900BE0B54 /* Polo Zero 2.0.app */,
+				080022DC27144055006D7950 /* ClockWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +242,14 @@
 		084DCA4725CAB68900BE0B54 /* Polo Zero 2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				084DCA4825CAB68900BE0B54 /* Polo_Zero_2_0App.swift */,
-				084DCA4A25CAB68900BE0B54 /* ContentView.swift */,
+				086ECC3927103CCA00DE370D /* GoogleService-Info.plist */,
+				08818826269706FB00522DD2 /* ImagePicker */,
+				084DCA6625CABBF100BE0B54 /* App */,
+				084DCA6725CABC0000BE0B54 /* View */,
+				084DCA6125CAB9C300BE0B54 /* Data */,
+				084DCA6A25CABCA100BE0B54 /* Model */,
+				084DCA6B25CABCC000BE0B54 /* Extension */,
+				084DCA6C25CABCC500BE0B54 /* Utility */,
 				084DCA4C25CAB68B00BE0B54 /* Assets.xcassets */,
 				084DCA5125CAB68B00BE0B54 /* Info.plist */,
 				084DCA4E25CAB68B00BE0B54 /* Preview Content */,
@@ -69,22 +265,183 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		084DCA6125CAB9C300BE0B54 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				087C8F0F26848F6200B3D9BC /* icon.json */,
+				084DCA5925CAB9A200BE0B54 /* brand.json */,
+				084DCA5B25CAB9A200BE0B54 /* category.json */,
+				084DCA5A25CAB9A200BE0B54 /* player.json */,
+				084DCA5825CAB9A200BE0B54 /* product.json */,
+				080FF573268B67340009CC45 /* PricesList.swift */,
+				08CA6ABF26D8E7E200598E74 /* CatalogsList.swift */,
+				087D667B268DC39800DF141A /* SamsungList.swift */,
+				087D667D268DC3A600DF141A /* DaikinList.swift */,
+				087D667F268DC3B000DF141A /* DaitsuList.swift */,
+				087D6681268DC3BB00DF141A /* HTWList.swift */,
+				087D6687268DC41C00DF141A /* WigamList.swift */,
+				087D6689268DC42C00DF141A /* MitsubishiList.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		084DCA6625CABBF100BE0B54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				084DCA4825CAB68900BE0B54 /* Polo_Zero_2_0App.swift */,
+				084DCA4A25CAB68900BE0B54 /* ContentView.swift */,
+				086FBB052643F24E00C33B75 /* ProductDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		084DCA6725CABC0000BE0B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				084DCA6825CABC2400BE0B54 /* Home */,
+				084DCA6925CABC9400BE0B54 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		084DCA6825CABC2400BE0B54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				084DCA7625CABDF700BE0B54 /* FooterView.swift */,
+				081CB8D925CAC2DB0029DF29 /* NavigationBarView.swift */,
+				081CB8DC25CAC4480029DF29 /* LogoView.swift */,
+				081CB8E525CAD1390029DF29 /* FeaturedItemView.swift */,
+				081CB8E825CAD2870029DF29 /* FeaturedTabView.swift */,
+				0889489425D54607005FDDD6 /* TitleView.swift */,
+				0889489A25D54870005FDDD6 /* ProductItemView.swift */,
+				08660D582642EA1200453A7D /* BrandItemView.swift */,
+				08660D5A2642EB6100453A7D /* BrandGridView.swift */,
+				087C8F1D2684E9CF00B3D9BC /* PrecosItemView.swift */,
+				0888F42826F898960009ABC0 /* CategoriasPzGridView.swift */,
+				0889489125D53C52005FDDD6 /* SectionView.swift */,
+				08B89F26270DE58000FC58C8 /* NavigationBarBtuCalc.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		084DCA6925CABC9400BE0B54 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				086FBB072643F47C00C33B75 /* NavigationBarDetailView.swift */,
+				086FBB09264408AF00C33B75 /* HeaderDetailView.swift */,
+				086FBB0B26440BBB00C33B75 /* TopPartDetailView.swift */,
+				087C8F1326849C7F00B3D9BC /* QualityFavouriteDetailView.swift */,
+				087C8F1B2684D75600B3D9BC /* LocationButtonView.swift */,
+				08AEBFAE268CDB290008B008 /* SamsungMenu.swift */,
+				086F26FC26930322003118B9 /* ContactosDetailView.swift */,
+				086F26FE26930343003118B9 /* VideosDetailView.swift */,
+				08A690D326B04B1A00F20AF6 /* VideoView.swift */,
+				0876BD412704603E0051C6B8 /* BtuCalculator.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		084DCA6A25CABCA100BE0B54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				081CB8DF25CACE820029DF29 /* PlayerModel.swift */,
+				08BC50A025D2F4350059C793 /* CategoryModel.swift */,
+				0889489725D54776005FDDD6 /* ProductModel.swift */,
+				08660D562642E93D00453A7D /* BrandModel.swift */,
+				087C8F112684911E00B3D9BC /* IconModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		084DCA6B25CABCC000BE0B54 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				081CB8E225CACEE80029DF29 /* CodableBundleExtention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		084DCA6C25CABCC500BE0B54 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				084DCA6D25CABD1600BE0B54 /* Constant.swift */,
+				087C8F0B2683424C00B3D9BC /* CustomShape.swift */,
+				087C8F152684A4C500B3D9BC /* Shop.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		08818826269706FB00522DD2 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				086F26FA269302A6003118B9 /* PromocoesDetailView.swift */,
+				0881882926970A4100522DD2 /* FirebaseImageView.swift */,
+				0881882B26970B7A00522DD2 /* ImagePickerController.swift */,
+				0881882D26970C9800522DD2 /* ContentRow.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		0DD4020BA9D74AF631C81B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5B85023EA60F6575E7C09E /* Pods_Polo_Zero_2_0.framework */,
+				086ECC4B2710606A00DE370D /* WidgetKit.framework */,
+				086ECC4D2710606A00DE370D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8F2183CE3F600F9A305E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF24456B50A6B601EB979E /* Pods-Polo Zero 2.0.debug.xcconfig */,
+				ED2E7EA25950863ECC96506B /* Pods-Polo Zero 2.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		084DCA4425CAB68900BE0B54 /* Polo Zero 2.0 */ = {
+		080022DB27144055006D7950 /* ClockWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 084DCA5425CAB68B00BE0B54 /* Build configuration list for PBXNativeTarget "Polo Zero 2.0" */;
+			buildConfigurationList = 080022E827144057006D7950 /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */;
 			buildPhases = (
-				084DCA4125CAB68900BE0B54 /* Sources */,
-				084DCA4225CAB68900BE0B54 /* Frameworks */,
-				084DCA4325CAB68900BE0B54 /* Resources */,
+				080022D827144055006D7950 /* Sources */,
+				080022D927144055006D7950 /* Frameworks */,
+				080022DA27144055006D7950 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = ClockWidgetExtension;
+			productName = ClockWidgetExtension;
+			productReference = 080022DC27144055006D7950 /* ClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		084DCA4425CAB68900BE0B54 /* Polo Zero 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084DCA5425CAB68B00BE0B54 /* Build configuration list for PBXNativeTarget "Polo Zero 2.0" */;
+			buildPhases = (
+				A1756FA0D979202C8906B239 /* [CP] Check Pods Manifest.lock */,
+				084DCA4125CAB68900BE0B54 /* Sources */,
+				084DCA4225CAB68900BE0B54 /* Frameworks */,
+				084DCA4325CAB68900BE0B54 /* Resources */,
+				080CED3C26DE447D00CA4962 /* Embed Frameworks */,
+				ED6A0C7AFA00B13DA7C6BEF8 /* [CP] Embed Pods Frameworks */,
+				086ECC5E2710606D00DE370D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080022E627144057006D7950 /* PBXTargetDependency */,
+			);
 			name = "Polo Zero 2.0";
+			packageProductDependencies = (
+				080CED3F26DE525300CA4962 /* WKView */,
+			);
 			productName = "Polo Zero 2.0";
 			productReference = 084DCA4525CAB68900BE0B54 /* Polo Zero 2.0.app */;
 			productType = "com.apple.product-type.application";
@@ -95,9 +452,12 @@
 		084DCA3D25CAB68900BE0B54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					080022DB27144055006D7950 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					084DCA4425CAB68900BE0B54 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -112,40 +472,216 @@
 				Base,
 			);
 			mainGroup = 084DCA3C25CAB68900BE0B54;
+			packageReferences = (
+				081A4AA726B1B528007643E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				080CED3E26DE525300CA4962 /* XCRemoteSwiftPackageReference "WKView" */,
+				08AC3B6E271429080076CD82 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
+			);
 			productRefGroup = 084DCA4625CAB68900BE0B54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				084DCA4425CAB68900BE0B54 /* Polo Zero 2.0 */,
+				080022DB27144055006D7950 /* ClockWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		080022DA27144055006D7950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080022E327144057006D7950 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		084DCA4325CAB68900BE0B54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084DCA5E25CAB9A200BE0B54 /* player.json in Resources */,
+				087C8F1026848F6200B3D9BC /* icon.json in Resources */,
+				086ECC3A27103CCA00DE370D /* GoogleService-Info.plist in Resources */,
 				084DCA5025CAB68B00BE0B54 /* Preview Assets.xcassets in Resources */,
+				084DCA5D25CAB9A200BE0B54 /* brand.json in Resources */,
+				084DCA5F25CAB9A200BE0B54 /* category.json in Resources */,
 				084DCA4D25CAB68B00BE0B54 /* Assets.xcassets in Resources */,
+				084DCA5C25CAB9A200BE0B54 /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1756FA0D979202C8906B239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polo Zero 2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6A0C7AFA00B13DA7C6BEF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polo Zero 2.0/Pods-Polo Zero 2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polo Zero 2.0/Pods-Polo Zero 2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Polo Zero 2.0/Pods-Polo Zero 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		080022D827144055006D7950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080022E127144055006D7950 /* ClockWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		084DCA4125CAB68900BE0B54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084DCA4B25CAB68900BE0B54 /* ContentView.swift in Sources */,
-				084DCA4925CAB68900BE0B54 /* Polo_Zero_2_0App.swift in Sources */,
+				0830EE5B26DE6FD80034857D /* PromocoesDetailView.swift in Sources */,
+				0830EE5C26DE6FD80034857D /* FirebaseImageView.swift in Sources */,
+				0830EE5D26DE6FD80034857D /* ImagePickerController.swift in Sources */,
+				0830EE5E26DE6FD80034857D /* ContentRow.swift in Sources */,
+				0830EE5F26DE6FD80034857D /* Polo_Zero_2_0App.swift in Sources */,
+				0830EE6026DE6FD80034857D /* ContentView.swift in Sources */,
+				0830EE6126DE6FD80034857D /* ProductDetailView.swift in Sources */,
+				0830EE6226DE6FD80034857D /* FooterView.swift in Sources */,
+				0830EE6326DE6FD80034857D /* NavigationBarView.swift in Sources */,
+				0830EE6426DE6FD80034857D /* LogoView.swift in Sources */,
+				0830EE6526DE6FD80034857D /* FeaturedItemView.swift in Sources */,
+				0830EE6626DE6FD80034857D /* FeaturedTabView.swift in Sources */,
+				0830EE6926DE6FD90034857D /* SectionView.swift in Sources */,
+				0830EE6A26DE6FD90034857D /* TitleView.swift in Sources */,
+				0830EE6B26DE6FD90034857D /* ProductItemView.swift in Sources */,
+				0830EE6C26DE6FD90034857D /* BrandItemView.swift in Sources */,
+				0830EE6D26DE6FD90034857D /* BrandGridView.swift in Sources */,
+				0830EE6E26DE6FD90034857D /* PrecosItemView.swift in Sources */,
+				0830EE6F26DE6FD90034857D /* NavigationBarDetailView.swift in Sources */,
+				0830EE7026DE6FD90034857D /* HeaderDetailView.swift in Sources */,
+				0830EE7126DE6FD90034857D /* TopPartDetailView.swift in Sources */,
+				0830EE7226DE6FD90034857D /* QualityFavouriteDetailView.swift in Sources */,
+				0830EE7326DE6FD90034857D /* LocationButtonView.swift in Sources */,
+				0830EE7426DE6FD90034857D /* SamsungMenu.swift in Sources */,
+				0830EE7526DE6FD90034857D /* ContactosDetailView.swift in Sources */,
+				0830EE7626DE6FD90034857D /* VideosDetailView.swift in Sources */,
+				0830EE7726DE6FD90034857D /* VideoView.swift in Sources */,
+				0830EE7826DE6FD90034857D /* icon.json in Sources */,
+				0830EE7926DE6FD90034857D /* brand.json in Sources */,
+				0876BD422704603E0051C6B8 /* BtuCalculator.swift in Sources */,
+				0830EE7A26DE6FD90034857D /* category.json in Sources */,
+				0830EE7B26DE6FD90034857D /* player.json in Sources */,
+				0888F42926F898960009ABC0 /* CategoriasPzGridView.swift in Sources */,
+				0830EE7C26DE6FD90034857D /* product.json in Sources */,
+				0830EE7D26DE6FD90034857D /* SamsungList.swift in Sources */,
+				0830EE7E26DE6FD90034857D /* DaikinList.swift in Sources */,
+				0830EE7F26DE6FD90034857D /* DaitsuList.swift in Sources */,
+				0830EE8026DE6FD90034857D /* HTWList.swift in Sources */,
+				0830EE8126DE6FD90034857D /* WigamList.swift in Sources */,
+				0830EE8226DE6FD90034857D /* MitsubishiList.swift in Sources */,
+				0830EE8326DE6FD90034857D /* PlayerModel.swift in Sources */,
+				08B89F27270DE58000FC58C8 /* NavigationBarBtuCalc.swift in Sources */,
+				0830EE8426DE6FD90034857D /* CategoryModel.swift in Sources */,
+				0830EE8526DE6FD90034857D /* ProductModel.swift in Sources */,
+				0830EE8626DE6FD90034857D /* BrandModel.swift in Sources */,
+				0830EE8726DE6FD90034857D /* IconModel.swift in Sources */,
+				0830EE5826DE6FB40034857D /* CustomShape.swift in Sources */,
+				080CED3D26DE515E00CA4962 /* PricesList.swift in Sources */,
+				0830EE5626DE6FA90034857D /* CatalogsList.swift in Sources */,
+				0830EE5926DE6FB60034857D /* Shop.swift in Sources */,
+				0830EE5726DE6FAF0034857D /* Constant.swift in Sources */,
+				0830EE5A26DE6FBA0034857D /* CodableBundleExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		080022E627144057006D7950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080022DB27144055006D7950 /* ClockWidgetExtension */;
+			targetProxy = 080022E527144057006D7950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		080022E927144057006D7950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HUYQR8B267;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polozero.polozeroApp.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080022EA27144057006D7950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HUYQR8B267;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polozero.polozeroApp.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		084DCA5225CAB68B00BE0B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -183,6 +719,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -197,7 +734,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,6 +781,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -252,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,10 +802,14 @@
 		};
 		084DCA5525CAB68B00BE0B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFF24456B50A6B601EB979E /* Pods-Polo Zero 2.0.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Polo Zero 2.0/Polo Zero 2.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Polo Zero 2.0/Preview Content\"";
 				DEVELOPMENT_TEAM = HUYQR8B267;
 				ENABLE_PREVIEWS = YES;
@@ -277,19 +819,25 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.polozero.Polo-Zero-2-0";
+				MARKETING_VERSION = 2.0.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polozero.polozeroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		084DCA5625CAB68B00BE0B54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2E7EA25950863ECC96506B /* Pods-Polo Zero 2.0.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Polo Zero 2.0/Polo Zero 2.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Polo Zero 2.0/Preview Content\"";
 				DEVELOPMENT_TEAM = HUYQR8B267;
 				ENABLE_PREVIEWS = YES;
@@ -299,16 +847,27 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.polozero.Polo-Zero-2-0";
+				MARKETING_VERSION = 2.0.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polozero.polozeroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		080022E827144057006D7950 /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080022E927144057006D7950 /* Debug */,
+				080022EA27144057006D7950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		084DCA4025CAB68900BE0B54 /* Build configuration list for PBXProject "Polo Zero 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -328,6 +887,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		080CED3E26DE525300CA4962 /* XCRemoteSwiftPackageReference "WKView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/WKView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.6;
+			};
+		};
+		081A4AA726B1B528007643E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		08AC3B6E271429080076CD82 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kommunicate-io/Kommunicate-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		080CED3F26DE525300CA4962 /* WKView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 080CED3E26DE525300CA4962 /* XCRemoteSwiftPackageReference "WKView" */;
+			productName = WKView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 084DCA3D25CAB68900BE0B54 /* Project object */;
 }

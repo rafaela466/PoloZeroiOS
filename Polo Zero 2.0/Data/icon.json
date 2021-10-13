@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"image": "precosbranco"
+	},
+	{
+		"id": 2,
+		"image": "catalogosbranco"
+	},
+	{
+		"id": 3,
+		"image": "contactosbranco"
+	},
+	{
+		"id": 4,
+		"image": "promocoesbranco"
+	},
+	{
+		"id": 5,
+		"image": "lojasbranco"
+	},
+	{
+		"id": 6,
+		"image": "videosbranco"
+	}
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "image" : "compressores"
+  },
+  {
+    "id" : 2,
+    "image" : "bannertestoapp"
+  },
+  {
+    "id" : 3,
+    "image" : "banneracapp"
+  },
+  {
+    "id" : 4,
+    "image" : "bannerdesinfapp"
+  },
+  {
+    "id" : 5,
+    "image" : "bannerlgapp"
+  }
+]
